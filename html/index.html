@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>To Do List</title>
+    <meta name="author" content="Rodrigo Urbina">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/CSS" rel="stylesheet" href="../css/styles.css" />
+  </head>
+
+  <body>
+
+  <button onclick="toTop()" id="scroll" title="Go to top">Top</button>
+    <div class="header">
+      <h1>My To Do List</h1>
+      <input class="listbar" type="text" id="myInput" placeholder="Title...">
+      <span onclick="newElement()" id="addBtn" class="Btn">Add</span>
+    </div>
+
+    <ul id="not_done">
+      <li>Hit the gym <span class="time"> <input type="date" value="date"></span></li>
+      <li class="checked">Pay bills <span class="time"><input type="date" value="date"> </span></li>
+      <li>Meet George <span class="time"> <input type="date" value="date"></span></li>
+      <li>Buy eggs <span class="time"> <input type="date" value="date"></span></li>
+      <li>Read a book <span class="time"> <input type="date" value="date"></span></li>
+      <li>Organize office <span class="time"> <input type="date" value="date"></span></li>
+    </ul><br><br>
+
+    <span onclick="revealNhide()" id="loadBtn" class="Btn">Update List</span>
+    <div id="second_view" class="hidden">
+      <div class="header2">
+        <h1>Done Tasks</h1>
+      </div>
+
+      <ul id="done">
+      </ul>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <script type="text/javascript" src="../javascript/javascript.js"></script>
+  </body>
+
+</html>
